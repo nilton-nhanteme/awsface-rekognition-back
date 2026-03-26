@@ -6,7 +6,7 @@ dotenv.config();
 
 const region = process.env.REGION;
 const accessKeyId = process.env.ACCESS_KEY_ID;
-const secretAccessKey = process.env.SECRET_ACCESS_KEY_ID;
+const secretAccessKey = process.env.SECRET_ACCESS_KEY;
 const s3BucketName = process.env.S3_BUCKET_NAME;
 
 if (!region || !accessKeyId || !secretAccessKey || !s3BucketName) {
